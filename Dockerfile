@@ -2,4 +2,4 @@ FROM nginx
 
 ADD dist /usr/share/nginx/html
 
-ENV PORT 3002
+EXPOSE 3002
